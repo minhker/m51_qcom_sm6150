@@ -76,27 +76,10 @@ echo "----------------------------------------------"
 echo "$NAME $VERSION Build Script"
 echo "----------------------------------------------"
 PS3='Please select your option (1-x) Ctrl C for exit: '
-menuvar=( "SM-M515_old_method" "SM-M515_used_for_now" "SM-M515_dtbo.img")
+menuvar=( "SM-M515_used_for_now" "SM-M515_dtbo.img")
 select menuvar in "${menuvar[@]}"
 do
     case $menuvar in
-	"SM-M515")
-            clear
-	  echo "this method build is old."
-           echo "Starting $VARIANT kernel build..."
-            BUILD_ZIMAGE
-	  #  cp $KERNEL_MK /home/m/kernel/a30_exynos_R_oc/MK/MinhKer_kernel_R_a30_v15.1_Pro/Image
-	  #  cp $DTBO_MK /home/m/kernel/a30_exynos_R_oc/MK/MinhKer_kernel_R_a30_v15.1_Pro/dtbo.img
-	  #  cp $MK_DTB /home/m/kernel/a30_exynos_R_oc/MK/MinhKer_kernel_R_a30_v15.1_Pro/dtb.img
-	   # echo "Packing zip"
-	  #  echo "=========================="
-	   # cd MK/MinhKer_kernel_R_a30_v15.1_Pro
-	   # ./zip.sh
-	   # cd ../..
-	  #  cp -r /home/m/kernel/a30_exynos_R_oc/MK/MinhKer_kernel_R_a30_v15.1_Pro /home/m/share/KERNEL
-	    echo "$VARIANT build finished."
-	    break
-            ;;
 	"SM-M515_used_for_now")
             clear
 	    rm $KERNEL_MK $DTBO_MK $KERNEL_OUT $DTBO_OUT
