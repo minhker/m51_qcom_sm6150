@@ -471,6 +471,10 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2ad3cad3cd114ceb7b5a55e9a42fc3db9375e8fc
 setup_env;
 
 do_devicecheck;
