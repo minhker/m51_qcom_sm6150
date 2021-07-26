@@ -471,22 +471,6 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 
-ui_print ""
-ui_print "     ____________________   _________         ";
-ui_print "     |__||___ | |___|__/|   ||___|___         ";
-ui_print "     |  ||    | |___|  \|___||   |___         ";
-ui_print "     _  __________  ______                    ";
-ui_print "     |_/ |___|__/|\ ||___|                    ";
-ui_print "     | \_|___|  \| \||___|___                 ";
-ui_print "                                              ";
-ui_print "Device: Samsung Galaxy A70";
-ui_print "Linux Kernel version: 4.14.235";
-ui_print "Afterlife version: alpha-v1.1";
-ui_print "Made for: AOSP R"
-ui_print " ";
-ui_print "Thanks to the choomba:";
-ui_print "osm0sis @github @xda-developers"
-ui_print " ";
 
 setup_env;
 
