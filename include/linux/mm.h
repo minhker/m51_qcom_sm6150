@@ -2867,8 +2867,9 @@ extern void free_memsize_reserved(phys_addr_t free_base, phys_addr_t free_size);
 extern void record_memsize_reserved(const char *name, phys_addr_t base,
 				    phys_addr_t size, bool nomap,
 				    bool reusable);
-extern inline bool need_memory_boosting(struct pglist_data *pgdat);
-
+//extern inline bool need_memory_boosting(struct pglist_data *pgdat);
+//https://github.com/Velosh/android_kernel_samsung_sm7125/commit/38344e7c7f12c0bf578ce9090847ebc7f59ba9fb#diff-33a04ce12520f67ce7eefeb9367a1bad5178749508615773c090c66a879d6caf
+extern inline bool need_memory_boosting(struct pglist_data *pgdat) {return false; }
 extern int want_old_faultaround_pte;
 
 #ifdef CONFIG_PROCESS_RECLAIM
