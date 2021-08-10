@@ -225,16 +225,16 @@
 
 		battery,rp_current_rp1 = <500>;
 		battery,rp_current_rp2 = <1500>;
-		battery,rp_current_rp3 = <3000>;
+		battery,rp_current_rp3 = <3000>;//3000
 		battery,rp_current_rdu_rp3 = <2100>;
 		battery,rp_current_abnormal_rp3 = <1800>;
 
 		battery,pd_charging_charge_power = <15000>;
-		battery,max_charging_current = <3150>;
+		battery,max_charging_current = <3150>;//3150
 		battery,battery_full_capacity = <7000>;
 
-		battery,ttf_hv_charge_current = <2550>;
-		battery,ttf_dc25_charge_current = <3300>;
+		battery,ttf_hv_charge_current = <2550>;//2550
+		battery,ttf_dc25_charge_current = <3300>;//3300
 
 		battery,ttf_capacity = <5650>;
 		battery,cv_data = <
@@ -296,7 +296,7 @@
 		battery,max_input_voltage = <9000>; /* mV */
 		battery,max_input_current = <3000>; /* mA */
 
-		battery,standard_curr = <3450>;
+		battery,standard_curr = <3600>;//3450
 		battery,expired_time = <12600>; /* (148 + 60) ~ 210 minutes */
 		battery,recharging_expired_time = <5400>;
 

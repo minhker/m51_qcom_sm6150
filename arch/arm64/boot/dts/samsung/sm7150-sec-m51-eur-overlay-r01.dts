@@ -23,7 +23,7 @@
 
  
 / { 
-	model = "Samsung M51 PROJECT Rev0.1 (board-id,01)"; 
+	model = "Samsung M51 PROJECT Rev0.1 (board-id,01) minhker01"; 
 	compatible = "qcom,sdmmagpie-idp", "qcom,sdmmagpie", "qcom,idp"; 
 	qcom,msm-id = <365 0x0>; 
 	qcom,board-id = <34 1>; 
